@@ -1,0 +1,160 @@
+﻿/* Only display masthead background images on larger screens. */
+@media (min-width: 992px) {
+
+    /*
+        1. Edit the .mdgov-masthead rule's background-image to your own default site-wide image.
+        2. Use the .mdgov-fixed .mdgov-mastead rule to override your default if using a combination of fluid and fixed width layouts.
+        3. Use masthead modifier classes "--tall, --full. REMOVE or COMMENT any not in use.
+    */
+
+    /* Default site-wide masthead. */
+    .mdgov-masthead {
+        background-image: url("../img/masthead-bg-fluid-1920x250.jpg");
+    }
+
+    /* Default site-wide fixed layout masthead. */
+    .mdgov-fixed .mdgov-masthead {
+        background-image: url("../img/masthead-bg-fixed-1200x250.jpg");
+    }
+
+    /* Tall fluid-width masthead. */ 
+    .mdgov-masthead.mdgov-masthead--tall {
+        background-image: url("../img/masthead-bg-tall-fluid-1920x500.jpg"); 
+    }
+
+    /* Tall fixed-width masthead. */
+    .mdgov-fixed .mdgov-masthead.mdgov-masthead--tall {
+        background-image: url("../img/masthead-bg-tall-fixed-1200x500.jpg");
+    }
+
+    /* Full-height, fluid-width masthead. */
+    .mdgov-masthead.mdgov-masthead--full {
+        background-image: url("../img/masthead-bg-full-fluid-1920x1020.jpg");
+        overflow: hidden;
+    }
+
+   /* 
+        Full-height, marketing masthead. Background set to none in order to let
+        the background image slideshow define images. If not using slideshow, specify your marketing
+        background image here.
+    */
+    .mdgov-masthead.mdgov-masthead--marketing {
+        background-image: none;
+    }
+
+    /* 
+        For displaying angled card background effect.
+        Note that background color is specified as the primary brand in the core CSS already.
+    */
+    .mdgov-masthead.mdgov-masthead--full:before {
+        content: "";
+        backface-visibility: hidden;
+        transform: skew(0deg,-3deg);
+        height: 50%;
+        width: 100vw;
+        position: absolute;
+        z-index: 0;
+        transform-origin: bottom left;
+        left: 0;
+        bottom: -110px;
+    }
+
+    /* Full-height, fixed-width masthead. */
+    .mdgov-fixed .mdgov-masthead.mdgov-masthead--full {
+        background-image: url("../img/masthead-bg-full-fixed-1200x1020.jpg");
+        background-size: auto;
+        background-position: top center;
+    }
+
+    .mdgov-masthead--angled {
+        background-image: url('../../../img/governor-masthead-home.jpg');
+    }
+
+    /* Full-screen background example. 
+    .mdgov-outerWrap {
+        background-color: transparent;
+    }
+    body {
+        background-image: url(../img/masthead-bg-full-fluid-1920x1020.jpg);
+    }
+    */
+}
+
+/*
+    All styles below support the template demo site only. All styles below are OPTIONAL and may be removed as needed.
+*/
+
+.input-validation-error {
+    border-color: #ff0000 !important;
+}
+
+input[type="color"] {
+    width: 100%;
+    max-width: 400px;
+}
+
+/* MVC Form Validation */
+.field-validation-error {
+    position: relative;
+    left: 0;
+    top: 0.5rem;
+    background-color: #ff0024;
+    color: #ffffff;
+    padding: 0.5rem;
+    display: inline-block;
+    width: 100%;
+    line-height: 1;
+    font-size: 14px;
+    margin-bottom: 0.5rem;
+}
+
+.field-validation-error:after {
+    content: " ";
+    position: absolute;
+    height: 0;
+    width: 0;
+    bottom: 100%;
+    left: 2rem;
+    border: solid transparent;
+    pointer-events: none;
+    border-color: rgba(255, 255, 0, 0);
+    border-bottom-color: #ff0024;
+    border-width: 0.5rem;
+    margin-left: -0.5rem;
+}
+
+.validation-summary-errors ul {
+    padding-left: 1.5rem;
+    margin-top: 0.5rem;
+}
+
+/* Online Services Widget Container */
+.svc_filterForm {
+    background-color: #e9ecef;
+    padding: 1rem 1rem 0 1rem;
+    margin-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+
+    .field-validation-error {
+        width: auto;
+    }
+
+}
+
+/* IE 11 is not showing the angled dividers correctly. Height property for SVG is missing. */
+.mdgov-divider--diag {
+	height:4vw;	
+}
+
+
+/* To remove the bottom line from Left Nav */
+.nav-link {
+ border-bottom: 0 !important;
+}
+
+/* To remove the numbers being displayed below the Montage Carousel */
+.carousel-indicators li {
+	text-indent: -4000px;
+}

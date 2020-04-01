@@ -1,0 +1,722 @@
+
+<!DOCTYPE html>
+
+<html class="no-js" dir="ltr" lang="en">
+<head>
+
+    
+    <title>Home - Office of Governor Larry Hogan</title>
+
+    <!-- Document metadata -->
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<meta name="description" content="An official website of the State of Maryland.">
+<meta name="robot" content="noarchive">
+<meta property="og:url" content="http://governor.maryland.gov/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Home">
+<meta property="og:description" content="An official website of the State of Maryland.">
+<meta property="og:image" content="/wp-content/themes/WPMaryland_eGov_Governor/gov/egov/dist/img/logo.png">
+<meta property="og:image:alt" content="Agency Logo">
+<meta property="og:site_name" content="The Office of Governor Larry Hogan">
+<meta name="google-site-verification" content="gNmJxoRoA2KoIJPAgQHkiyVcGTHQZ78wuFttitKGlF8" />
+
+<!-- ICONS -->
+<link rel="icon" href="/wp-content/themes/WPMaryland_eGov_Governor/gov/egov/dist/img/favicon.ico?v=1">
+<link rel="shortcut icon" href="/wp-content/themes/WPMaryland_eGov_Governor/gov/egov/dist/img/favicon.ico?v=1" type="image/x-icon">
+<link rel="icon" href="/wp-content/themes/WPMaryland_eGov_Governor/gov/egov/dist/img/favicon.ico?v=1" type="image/x-icon">
+<link rel="apple-touch-icon" href="/wp-content/themes/WPMaryland_eGov_Governor/gov/egov/dist/img/apple-touch-icon-150x150.png">
+
+    
+<!-- Core CSS files. Do NOT modify. -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+<link href="/wp-content/themes/WPMaryland_eGov_Governor/gov/egov/dist/core/core.min.css" rel="stylesheet">
+
+<!-- Custom site CSS file -->
+<link href="/wp-content/themes/WPMaryland_eGov_Governor/gov/egov/dist/custom/site.css" rel="stylesheet">
+
+
+<script src="/wp-content/themes/WPMaryland_eGov_Governor/gov/egov/dist/lib/modernizr-3.6.0/modernizr-custom.js"></script>
+<script src="/wp-content/themes/WPMaryland_eGov_Governor/gov/egov/dist/lib/jquery-3.3.1/jquery-3.3.1.min.js"></script>
+
+<!--
+    mdgovConfig and mdgov_widgetOptions. These globals must be declared prior to loading template
+    modules and EWF widgets.
+-->
+<script>
+
+    /* Global template JS module configuration */
+    var mdgovConfig = {
+        debug: false,
+        imageGrid: {
+            autoPlay: true
+        }
+    };
+</script>
+ 
+
+    <!--
+        Enterprise Widget Framework (EWF) main script. Load widgets by appending their name[-version] string
+        to the "api?load=" parameter.
+    -->
+    
+        <script>
+            /*
+            * Global EWF configuration
+            * Documentation: https://egov.maryland.gov/doit/ewf/userdocs/
+            */
+            var mdgov_widgetOptions = {
+                /* https://egov.maryland.gov/doit/ewf/userdocs/widgets/analytics.aspx */
+                // REPLACE this with your own Google Analytics information or REMOVE object.
+                analytics: {
+                    // Google analytics property ID.
+                    gaPropertyId: "UA-17120743-3",
+                    // Used to uniquely identify site within GA
+                    analyticsIdentifier: "GovernorOffice"
+                }
+               
+            };
+        </script>
+
+    
+        <script src="https://egov.maryland.gov/doit/ewf/ewf.js" data-main="https://egov.maryland.gov/doit/ewf/api?load=slidenav,header-2,translate-2"></script>
+<link rel='dns-prefetch' href='//ajax.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<!-- This site uses the Google Analytics by MonsterInsights plugin v7.10.4 - Using Analytics tracking - https://www.monsterinsights.com/ -->
+<script type="text/javascript" data-cfasync="false">
+	var mi_version         = '7.10.4';
+	var mi_track_user      = true;
+	var mi_no_track_reason = '';
+	
+	var disableStr = 'ga-disable-UA-58779104-1';
+
+	/* Function to detect opted out users */
+	function __gaTrackerIsOptedOut() {
+		return document.cookie.indexOf(disableStr + '=true') > -1;
+	}
+
+	/* Disable tracking if the opt-out cookie exists. */
+	if ( __gaTrackerIsOptedOut() ) {
+		window[disableStr] = true;
+	}
+
+	/* Opt-out function */
+	function __gaTrackerOptout() {
+	  document.cookie = disableStr + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+	  window[disableStr] = true;
+	}
+	
+	if ( mi_track_user ) {
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','__gaTracker');
+
+		__gaTracker('create', 'UA-58779104-1', 'auto');
+		__gaTracker('set', 'forceSSL', true);
+		__gaTracker('send','pageview');
+	} else {
+		console.log( "" );
+		(function() {
+			/* https://developers.google.com/analytics/devguides/collection/analyticsjs/ */
+			var noopfn = function() {
+				return null;
+			};
+			var noopnullfn = function() {
+				return null;
+			};
+			var Tracker = function() {
+				return null;
+			};
+			var p = Tracker.prototype;
+			p.get = noopfn;
+			p.set = noopfn;
+			p.send = noopfn;
+			var __gaTracker = function() {
+				var len = arguments.length;
+				if ( len === 0 ) {
+					return;
+				}
+				var f = arguments[len-1];
+				if ( typeof f !== 'object' || f === null || typeof f.hitCallback !== 'function' ) {
+					console.log( 'Not running function __gaTracker(' + arguments[0] + " ....) because you are not being tracked. " + mi_no_track_reason );
+					return;
+				}
+				try {
+					f.hitCallback();
+				} catch (ex) {
+
+				}
+			};
+			__gaTracker.create = function() {
+				return new Tracker();
+			};
+			__gaTracker.getByName = noopnullfn;
+			__gaTracker.getAll = function() {
+				return [];
+			};
+			__gaTracker.remove = noopfn;
+			window['__gaTracker'] = __gaTracker;
+					})();
+		}
+</script>
+<!-- / Google Analytics by MonsterInsights -->
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/governor.maryland.gov\/wp-includes\/js\/wp-emoji-release.min.js?ver=699e51f83d99b7bdafb55c64da337ded"}};
+			!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='https://governor.maryland.gov/wp-includes/css/dist/block-library/style.min.css?ver=699e51f83d99b7bdafb55c64da337ded' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='https://governor.maryland.gov/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.1.6' type='text/css' media='all' />
+<link rel='stylesheet' id='jquery-ui-theme-css'  href='https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.min.css?ver=1.11.4' type='text/css' media='all' />
+<link rel='stylesheet' id='jquery-ui-timepicker-css'  href='https://governor.maryland.gov/wp-content/plugins/contact-form-7-datepicker/js/jquery-ui-timepicker/jquery-ui-timepicker-addon.min.css?ver=699e51f83d99b7bdafb55c64da337ded' type='text/css' media='all' />
+<script type='text/javascript'>
+/* <![CDATA[ */
+var monsterinsights_frontend = {"js_events_tracking":"true","download_extensions":"doc,pdf,ppt,zip,xls,docx,pptx,xlsx","inbound_paths":"[]","home_url":"https:\/\/governor.maryland.gov","hash_tracking":"false"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://governor.maryland.gov/wp-content/plugins/google-analytics-for-wordpress/assets/js/frontend.min.js?ver=7.10.4'></script>
+<script type='text/javascript' src='https://governor.maryland.gov/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp'></script>
+<script type='text/javascript' src='https://governor.maryland.gov/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<link rel='https://api.w.org/' href='https://governor.maryland.gov/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://governor.maryland.gov/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://governor.maryland.gov/wp-includes/wlwmanifest.xml" /> 
+
+<link rel="canonical" href="https://governor.maryland.gov/" />
+<link rel='shortlink' href='https://governor.maryland.gov/' />
+<link rel="alternate" type="application/json+oembed" href="https://governor.maryland.gov/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fgovernor.maryland.gov%2F" />
+<script type="text/javascript">
+(function(url){
+	if(/(?:Chrome\/26\.0\.1410\.63 Safari\/537\.31|WordfenceTestMonBot)/.test(navigator.userAgent)){ return; }
+	var addEvent = function(evt, handler) {
+		if (window.addEventListener) {
+			document.addEventListener(evt, handler, false);
+		} else if (window.attachEvent) {
+			document.attachEvent('on' + evt, handler);
+		}
+	};
+	var removeEvent = function(evt, handler) {
+		if (window.removeEventListener) {
+			document.removeEventListener(evt, handler, false);
+		} else if (window.detachEvent) {
+			document.detachEvent('on' + evt, handler);
+		}
+	};
+	var evts = 'contextmenu dblclick drag dragend dragenter dragleave dragover dragstart drop keydown keypress keyup mousedown mousemove mouseout mouseover mouseup mousewheel scroll'.split(' ');
+	var logHuman = function() {
+		if (window.wfLogHumanRan) { return; }
+		window.wfLogHumanRan = true;
+		var wfscr = document.createElement('script');
+		wfscr.type = 'text/javascript';
+		wfscr.async = true;
+		wfscr.src = url + '&r=' + Math.random();
+		(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(wfscr);
+		for (var i = 0; i < evts.length; i++) {
+			removeEvent(evts[i], logHuman);
+		}
+	};
+	for (var i = 0; i < evts.length; i++) {
+		addEvent(evts[i], logHuman);
+	}
+})('//governor.maryland.gov/?wordfence_lh=1&hid=DDE1E470BD63DD919A1C905579F8BE6F');
+</script><script type='text/javascript'>
+var tminusnow = '{"now":"4\/1\/2020 09:31:42"}';
+</script><style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #eff3fa; }
+</style>
+	<script>NS_CSM_td=296399658;NS_CSM_pd=275116666;NS_CSM_u="/clm10";NS_CSM_col="Appflow-HSB-CORE-NSMAS-logstream-Collector";</script><script type="text/javascript">function sendTimingInfoInit(){setTimeout(sendTimingInfo,0)}function sendTimingInfo(){var wp=window.performance;if(wp){var c1,c2,t;c1=wp.timing;if(c1){var cm={};cm.ns=c1.navigationStart;if((t=c1.unloadEventStart)>0)cm.us=t;if((t=c1.unloadEventEnd)>0)cm.ue=t;if((t=c1.redirectStart)>0)cm.rs=t;if((t=c1.redirectEnd)>0)cm.re=t;cm.fs=c1.fetchStart;cm.dls=c1.domainLookupStart;cm.dle=c1.domainLookupEnd;cm.cs=c1.connectStart;cm.ce=c1.connectEnd;if((t=c1.secureConnectionStart)>0)cm.scs=t;cm.rqs=c1.requestStart;cm.rss=c1.responseStart;cm.rse=c1.responseEnd;cm.dl=c1.domLoading;cm.di=c1.domInteractive;cm.dcls=c1.domContentLoadedEventStart;cm.dcle=c1.domContentLoadedEventEnd;cm.dc=c1.domComplete;if((t=c1.loadEventStart)>0)cm.ls=t;if((t=c1.loadEventEnd)>0)cm.le=t;cm.tid=NS_CSM_td;cm.pid=NS_CSM_pd;cm.ac=NS_CSM_col;var xhttp=new XMLHttpRequest();if(xhttp){var JSON=JSON||{};JSON.stringify=JSON.stringify||function(ob){var t=typeof(ob);if(t!="object"||ob===null){if(t=="string")ob='"'+ob+'"';return String(ob);}else{var n,v,json=[],arr=(ob&&ob.constructor==Array);for(n in ob){v=ob[n];t=typeof(v);if(t=="string")v='"'+v+'"';else if(t=="object"&&v!==null)v=JSON.stringify(v);json.push((arr?"":'"'+n+'":')+String(v));}return(arr?"[":"{")+String(json)+(arr?"]":"}");}};xhttp.open("POST",NS_CSM_u,true);xhttp.send(JSON.stringify(cm));}}}}if(window.addEventListener)window.addEventListener("load",sendTimingInfoInit,false);else if(window.attachEvent)window.attachEvent("onload",sendTimingInfoInit);else window.onload=sendTimingInfoInit;</script></head>
+
+
+<body id="mdgovBodyTop">
+
+    <div id="mdgovOuterWrap" class="mdgov-outerWrap">
+
+<div class="mdgov-notifications m-0">
+
+    <!-- Global <noscript> warning notification -->
+    <noscript>
+    <div role="alert" class="alert alert-warning">
+        <div class="alert-icon"><i class="fas fa-exclamation-triangle" aria-hidden="true"></i></div>
+        <div class="alert-text">
+            <strong class="h4 alert-heading">JavaScript Required</strong>
+            <p>JavaScript is required to use content on this page. Please enable JavaScript in your browser.</p>
+        </div>
+    </div>
+</noscript>
+
+</div>
+
+        <!-- ACCESSIBILITY: accessMenu must be the first tabbable item in the page. -->
+        <div id="mdgov-accessMenu">
+            <a href="#mdgovMain" class="sr-only sr-only-focusable show-on-focus">Skip to Content</a>
+            <a href="http://www.maryland.gov/pages/accessibility.aspx" class="sr-only sr-only-focusable show-on-focus" target="_blank">Accessibility Information</a>
+        </div>
+
+        <!-- Enterprise Header -->
+<div id="header_container">
+    
+</div>
+
+        <div id="mdgovInnerWrap" class="mdgov-innerWrap mdgov-fluid">
+
+            <!-- Start Masthead -->
+            <header class="mdgov-masthead mdgov-masthead--angled bg-white">
+
+                
+<div class="mdgov-navBar">
+
+    <!-- Start Search -->
+    <div class="mdgov-navBar__search">
+        <form method="GET" action="//www.maryland.gov/pages/search.aspx">
+    <!-- Site ID. See https://doit.maryland.gov/webcom/Pages/SearchCollections.aspx for valid values. -->
+    <input type="hidden" name="site" value="xwjvjbmpp6q">
+    <!-- Required agency name -->
+    <input type="hidden" name="name" value="Governor's Office">
+    <div class="mdgov-search">
+        <label for="mdgov-search__input" class="sr-only">Search</label>
+        <!-- Parameter "name" value must be "q" -->
+        <input type="text" id="mdgov-search__input" name="q" class="mdgov-search__input" value="" placeholder="Search" autocomplete="off">
+        <button type="submit" id="mdgov-search__button" class="mdgov-search__button btn"><i class="fas fa-search" aria-hidden="true"></i><span class="sr-only">Search</span></button>
+    </div>
+</form>
+    </div>
+
+    <!-- Start Site Navigation -->
+     <!-- Main navigation links -->
+                               
+ <nav id="mdgovLeftNav" class="mdgov-navBar__nav"><h2 class="sr-only" id="mdgovMainNavHeading">Main Navigation</h2><ul><li id="menu-item-46893" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-46633 current_page_item menu-item-46893"><a href="https://governor.maryland.gov/" aria-current="page">Home</a></li>
+<li id="menu-item-6126" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6126"><a href="/governor-larry-hogan/">Bio</a></li>
+<li id="menu-item-31" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-31"><a href="https://governor.maryland.gov/category/press-releases/">Press Releases</a></li>
+<li id="menu-item-38066" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-38066"><a href="https://governor.maryland.gov/speeches-governor-larry-hogan/">Speeches</a></li>
+<li id="menu-item-97069" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-97069"><a href="https://governor.maryland.gov/covid-19-pandemic-orders-and-guidance/">Executive Orders</a></li>
+<li id="menu-item-286" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-286"><a href="https://governor.maryland.gov/bill-signings/">Bill Signings</a></li>
+<li id="menu-item-34206" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-34206"><a href="http://govpics.maryland.gov/">Event Photos</a></li>
+</ul></nav>
+</div>
+
+<div class="mdgov-hero">
+    <div class="mdgov-hero__brand mdgov-hero__brand--angled">
+        <div class="mdgov-hero__logo">
+            <a href="https://governor.maryland.gov">
+                <!-- [ ACCESSIBILITY: Agency logo image must describe where it links to ] -->
+                
+<img class="mdgov-hero__brand__logo" src="/wp-content/themes/WPMaryland_eGov_Governor/gov/img/logo.png" alt="Go To Home Page">
+            </a>
+        </div>
+        <div class="mdgov-hero__heading">
+            <h1 id="mdgovAgency" class="mdgov-agency">
+                <span>The Office of </span>
+                <span class="mdgov-agency__name">Governor Larry Hogan</span>
+            </h1>
+        </div>
+    </div>
+<div class="mdgov-social">
+        <a href="https://www.facebook.com/GovLarryHogan/" target="_blank" class="mdgov-social__icon" data-toggle="tooltip" data-placement="top" title="Facebook" aria-label="Facebook"><i class="fab fa-facebook-square" aria-hidden="true"></i></a>
+        <a href="https://twitter.com/GovLarryHogan" target="_blank" class="mdgov-social__icon" data-toggle="tooltip" data-placement="top" title="Twitter" aria-label="Twitter"><i class="fab fa-twitter-square" aria-hidden="true"></i></a>
+        <a href="https://www.instagram.com/govlarryhogan/" target="_blank" class="mdgov-social__icon" data-toggle="tooltip" data-placement="top" title="Instagram" aria-label="Instagram"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+        <!-- [ More social media located in the bottom "mdgovMoreSocial" modal dialog. ] 
+        <button class="mdgov-social__icon" type="button" data-toggle="modal" data-target="#mdgovMoreSocial" aria-label="More Social Media"><span data-toggle="tooltip" data-placement="top" title="More Social Media"><i class="icon-ellipsis-h" aria-hidden="true"></i></span></button>-->
+    </div>
+</div> 
+
+<div class="container-fluid">
+        <div class="row align-items-center mdgov-homePanel">
+            <div class="col-lg-6 py-3 py-lg-8">
+                <div class="text-white">
+					<h2>COVID-19 Response</h2>
+<p>The Hogan administration is committed to being transparent, keeping Marylanders fully informed, and taking actions based on detailed planning. </p>
+<p><a href="/coronavirus/" class="btn btn-light btn-block d-lg-inline">Learn More</a></p>
+				</div>
+			</div>
+        </div>
+    </div>
+</header>
+
+            <!-- Begin Body Content -->
+
+<main id="mdgovMain" class="mdgov-main">
+            
+<section class="bg-white py-lg-8">
+
+    <h2 class="sr-only">Latest News</h2>
+	
+
+    <div class="container-fluid">
+
+        <div class="row">
+			<div class="col-lg-6 py-3 py-lg-8 pr-lg-5">
+				  <div id="mainSlideShow" class="carousel carousel-fade slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#mainSlideShow" data-slide-to="0" class="active">1</li>
+                        <li data-target="#mainSlideShow" data-slide-to="1">2</li>
+                        <li data-target="#mainSlideShow" data-slide-to="2">3</li>
+                        <li data-target="#mainSlideShow" data-slide-to="3">4</li>
+                        <li data-target="#mainSlideShow" data-slide-to="4">5</li> 
+                        <li data-target="#mainSlideShow" data-slide-to="5">6</li>
+                        <li data-target="#mainSlideShow" data-slide-to="6">7</li>
+                        <li data-target="#mainSlideShow" data-slide-to="7">8</li>
+                        <li data-target="#mainSlideShow" data-slide-to="8">9</li>
+                    </ol>
+                      <div class="carousel-inner">
+                       <a href="/marylandunites/" class="carousel-item active">
+                            <img class="d-block w-100" src="./wp-content/uploads/2020/03/home-page-marylandunites.jpg" alt="Maryland Unites - Responding to the COVID-19 pandemic, image of Governor Larry Hogan and staff, addressing the citizens of Maryland">
+                            <div class="carousel-caption p-3 bg-secondary text-white">
+                                <h3 class="mb-2">Maryland Unites</h3>
+                                <p><em>Click for resources and opportunities to help during the COVID-19 pandemic.</em></p>
+                            </div>
+                        </a>
+                       <a href="https://health.maryland.gov/coronavirus" class="carousel-item">
+                            <img class="d-block w-100" src="./wp-content/uploads/2020/03/coronavirus-1.jpg" alt="Governor Hogan at MEMA with Senior Staff">
+                            <div class="carousel-caption p-3 bg-secondary text-white">
+                                <h3 class="mb-2">Information and Resources on COVID-19</h3>
+                                <p><em>All levels of government are working together to respond to the novel coronavirus and keep Marylanders safe and healthy.</em></p>
+                            </div>
+                        </a>
+                         <a href="http://census.maryland.gov" class="carousel-item">
+                            <img class="d-block w-100" src="./wp-content/uploads/2020/03/census2020.jpg" alt="Census 2020">
+                            <div class="carousel-caption p-3 bg-secondary text-white">
+                                <h3 class="mb-2">The 2020 Census: Every Marylander Counts!</h3>
+                                <p><em>Census Day is April 1, 2020, and it’s quicker and easier to participate than ever before. </em></p>
+                            </div>
+                        </a>
+                        <a href="/governor-larry-hogan/" class="carousel-item">
+                            <img class="d-block w-100" src="./wp-content/uploads/2019/07/bio-slide.jpg" alt="Governor Hogan's Biography">
+                            <div class="carousel-caption p-3 bg-secondary text-white">
+                                <h3 class="mb-2">Learn more about the 62nd Governor of Maryland</h3>
+                                <p><em>Changing Maryland for the Better.</em></p>
+                            </div>
+                        </a>
+                        <a href="/2019/07/26/governor-hogan-to-be-elected-chairman-of-national-governors-association/" class="carousel-item">
+                            <img class="d-block w-100" src="./wp-content/uploads/2019/09/2.jpg" alt="Governor at National Governor's Conference">
+                            <div class="carousel-caption p-3 bg-secondary text-white">
+                                <h3 class="mb-2">Leading the Nation's Governors</h3>
+                                <p><em>As chair of the National Governors Association, Governor Hogan leads a national initiative focused on rebuilding America’s infrastructure.</em></p>
+                            </div>
+                        </a>
+                      <a href="https://www.youtube.com/watch?v=sL3MJNLuObA" class="carousel-item">
+                            <img class="d-block w-100" src="./wp-content/uploads/2019/09/3.jpg" alt="Governor Hogan with staff from the Dept of Agriculture'">
+                            <div class="carousel-caption p-3 bg-secondary text-white">
+                                <h3 class="mb-2">Celebrating Maryland Agriculture</h3>
+                                <p><em>Governor Hogan paid tribute to Maryland’s vibrant agriculture industry during his visit to the 138th Maryland State Fair. </em></p>
+                            </div>
+                        </a>
+                 <a href="/2019/08/29/governor-hogan-calls-for-action-and-accountability-on-pennsylvanias-clean-water-progress/" class="carousel-item">
+                            <img class="d-block w-100" src="./wp-content/uploads/2019/09/4.jpg" alt="Sunrise on the Chesapeake">
+                            <div class="carousel-caption p-3 bg-secondary text-white">
+                                <h3 class="mb-2">Preserving the Chesapeake</h3>
+                                <p><em>Governor Hogan has taken historic action to protect the health of the Bay watershed, and is calling on upstream states to do the same. </em></p>
+                            </div>
+                        </a>
+                 <a href="/2019/06/13/governor-hogan-announces-4000th-unit-of-blight-marked-for-elimination-in-baltimore-city/" class="carousel-item">
+                            <img class="d-block w-100" src="./wp-content/uploads/2019/09/5.jpg" alt="Governor in Baltimore during a demolition">
+                            <div class="carousel-caption p-3 bg-secondary text-white">
+                                <h3 class="mb-2">Revitalizing Urban Communities</h3>
+                                <p><em>Governor Hogan recently celebrated 4,000 units of dangerous blight in Baltimore marked for demolition through Project C.O.R.E. </em></p>
+                            </div>
+                        </a>
+                   <a href="/2019/09/05/governor-hogan-announces-installation-of-first-purple-line-track/" class="carousel-item">
+                            <img class="d-block w-100" src="./wp-content/uploads/2019/09/6.jpg" alt="Governor Hogan with Transportation staff holding a piece of track">
+                            <div class="carousel-caption p-3 bg-secondary text-white">
+                                <h3 class="mb-2">Getting Marylanders Moving</h3>
+                                <p><em>Governor Hogan announced the laying of the first tracks for the Purple line – the largest transit project of its kind in North America.  </em></p>
+                            </div>
+                        </a>
+                    </div>
+                    <a class="carousel-control-prev" href="#mainSlideShow" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#mainSlideShow" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+               </div>				</div>
+
+			<div class="col-lg-6 py-3 py-lg-8 pl-lg-5">
+			 	<div class="list-group"> 
+                			<h3 class="mb-1"><p style="text-align: left;"><div class="display-posts-listing" id="press"><div class="listing-item"><a class="title" href="https://governor.maryland.gov/2020/04/01/governor-hogan-announces-bay-bridge-westbound-right-lane-reopened-today-more-than-a-year-ahead-of-schedule/">Governor Hogan Announces Bay Bridge Westbound Right Lane Reopened Today More Than A Year Ahead of Schedule</a> <span class="date">April 1, 2020</span></div><div class="listing-item"><a class="title" href="https://governor.maryland.gov/2020/03/30/governor-hogan-authorizes-remote-notarizations/">Governor Hogan Authorizes Remote Notarizations</a> <span class="date">March 30, 2020</span></div><div class="listing-item"><a class="title" href="https://governor.maryland.gov/2020/03/30/as-covid-19-crisis-escalates-in-capital-region-governor-hogan-issues-stay-at-home-order-effective-tonight/">As COVID-19 Crisis Escalates in Capital Region, Governor Hogan Issues Stay at Home Order Effective Tonight</a> <span class="date">March 30, 2020</span></div></div></p>
+<p align="center"><a href="/category/press-releases/" class="btn btn-primary px-8 my-4">More News</a></p>
+</h3>
+  		     		</div>     
+			</div>
+
+        </div>
+
+    </div>
+</section>
+
+<svg class="mdgov-divider mdgov-divider--diag bg-white text-highlight" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100" viewbox="0 0 1920 100" preserveaspectratio="none">
+    <path d="M1920,100H0L1920,0V100z"></path>
+</svg>
+
+<section class="bg-highlight">
+
+    <h2 class="sr-only">Featured Video</h2>
+
+    <div class="container-fluid">
+
+       <div class="row align-items-center">
+            <div class="col-lg-6 text-center py-3 py-lg-8 order-2 order-lg-1">
+                <h3><a href="/2020/02/05/the-peoples-priorities-governor-hogans-sixth-state-of-the-state-address/" class="text-dark">Governor Hogan Delivers Sixth State of the State Address</a></h3>
+<p>Governor Larry Hogan's sixth State of the State address, 'The People’s Priorities,' called for action on common sense initiatives to address the most urgent issues facing Marylanders.
+</p>
+                <a href="https://www.youtube.com/channel/UCbheDE_LMwHyl3VShzU73wA" class="btn btn-primary px-8 my-4">More Videos</a>
+            </div>
+            <div class="col-lg-6 text-center py-3 py-lg-8 order-1">
+                <div class="embed-responsive embed-responsive-16by9">
+                   <iframe width="560" height="290" src="https://www.youtube.com/embed/FxhfEPzHK9M?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<svg class="mdgov-divider mdgov-divider--diag bg-highlight text-light" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100" viewbox="0 0 1920 100" preserveaspectratio="none">
+    <path d="M1920,100H0L1920,0V100z"></path>
+</svg>
+
+<section class="bg-light">
+
+    <div class="container-fluid py-3 py-lg-8">
+
+        <h2 class="text-center text-uppercase mb-8">More from the Governor's Office</h2>
+
+        <div class="row">
+     <div class="col-sm-12 col-md-6 col-lg-4 mb-3 mb-lg-5">
+                <div class="card card-shadowed h-100">
+                    <div class="card-body">
+			<h3 class="card-title"><a href="https://governor.maryland.gov/ltgovernor/">Lieutenant Governor Boyd K. Rutherford</a></h3>
+                        <p class="card-text">
+                            Boyd K. Rutherford is the ninth lieutenant governor of the State of Maryland.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 mb-3 mb-lg-5">
+                <div class="card card-shadowed h-100">
+                    <div class="card-body">
+                        <h3 class="card-title"><a href="https://governor.maryland.gov/firstlady/">First Lady Yumi Hogan</a></h3>
+                        <p class="card-text">First Lady Yumi Hogan is the first Korean-American First Lady in the United States.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 mb-3 mb-lg-5">
+                <div class="card card-shadowed h-100">
+                    <div class="card-body">
+                        <h3 class="card-title"><a href="https://census.maryland.gov/Pages/default.aspx">Census 2020</a></h3>
+                        <p class="card-text">Learn more about the decennial census, which will take place on April 1, 2020.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 mb-3 mb-lg-5">
+                <div class="card card-shadowed h-100">
+                    <div class="card-body">
+                                                <h3 class="card-title"><a href="/category/press-releases/">Newsroom</a></h3>
+                        <p class="card-text">View the latest news from Governor Hogan.</p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 mb-3 mb-lg-5">
+                <div class="card card-shadowed h-100">
+                    <div class="card-body">
+                        <h3 class="card-title"><a href="http://govpics.maryland.gov/pages/Default.aspx">Photo Gallery</a></h3>
+                        <p class="card-text">
+                            Showcase of photographs taken at events around the state of Maryland.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-4 mb-3 mb-lg-5">
+                <div class="card card-shadowed h-100">
+                    <div class="card-body">
+                        <h3 class="card-title"><a href="/update-from-governor-larry-hogan/">Newsletter</a></h3>
+                        <p class="card-text">
+                            Newsletter updates from Governor Larry Hogan.
+                        </p>
+                    </div>
+                </div>
+            </div>         </div>
+
+    </div>
+
+</section>
+</main>
+            <!-- End Body Content -->
+
+        </div>
+
+      
+</div> <!-- Closing of InnerWrap DIV -->
+
+        <footer id="mdgovFooter" class="mdgov-footer">
+
+    <h1 class="h2 mdgov-headingBar bg-secondary"></h1>
+<div class="row no-gutters">
+    <div class="col-sm-6 col-xl-3 bg-darkgray text-white mdgov-governorPanel">
+        <ul>
+		<li><a href="http://governor.maryland.gov/announcement.html" target="_blank">
+            <img src="/wp-content/themes/WPMaryland_eGov_Governor/gov/egov/dist/img/govLtGov.png" alt="Maryland Governor and Leutenant Governor">
+        </a></li>
+		</ul>
+    </div>
+   <div class="col-sm-12 col-xl-6 bg-lightyellow p-3 p-lg-4 order-sm-3">
+        <div class="mdgov-csp">
+            <div class="row">
+                <div class="col-md-3 mdgov-csp__col1">
+                    <a href="http://www.maryland.gov/pages/customerservice.aspx" target="_blank">
+                        <img src="/wp-content/themes/WPMaryland_eGov_Governor/gov/egov/dist/img/changingMD-400x400.png" alt="Customer Service Promise">
+                    </a>
+                </div>
+                <div class="col-md-9 mdgov-csp__col2">
+                    <h2 class="h3">Customer Service Promise</h2>
+                    <p><em>The State of Maryland pledges to provide constituents, businesses, customers, and stakeholders with friendly and courteous, timely and responsive, accurate and consistent, accessible and convenient, and truthful and transparent services.</em></p>
+                    <a href="http://www.maryland.gov/pages/customerservice.aspx" target="_blank" class="btn btn-block btn-primary">Take Our Survey</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-6 col-xl-3 bg-white p-3 p-lg-4 order-sm-2 order-xl-3">
+        <h2 class="h3">Human Trafficking <strong>GET HELP</strong></h2>
+        <p>National Human Trafficking Hotline - 24/7 Confidential</p>
+        <a class="btn btn-block btn-primary" href="tel:1-888-373-7888"><i class="fas fa-phone mr-2" aria-hidden="true"></i>1-888-373-7888</a>
+        <a class="btn btn-block btn-primary" href="tel:233733"><i class="fas fa-mobile mr-2" aria-hidden="true"></i>233733</a>
+        <a href="http://goccp.maryland.gov/victims/rights-resources/human-trafficking/" target="_blank" class="btn btn-block btn-link text-center">More Information <span class="sr-only"> on human trafficking in Maryland</span></a>
+    </div>
+</div>
+    <div id="mdgovFooterMiddle" class="mdgov-footer__middle">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-4">
+                    <p id="mdgov-footer__copyright">&copy; Copyright <a href="http://www.maryland.gov/" target="_blank">Maryland.gov</a>. All rights reserved.</p>
+                </div>
+                <div class="col-xl-8">
+                    <ul class="mdgov-footer__nav">
+                        <li><a href="http://governor.maryland.gov/contact-us">Contact Us</a></li>
+                        <li><a href="https://www.maryland.gov/pages/customerservice.aspx">Survey</a></li>
+                        <li><a href="http://www.maryland.gov/pages/privacy_security.aspx" target="_blank">Privacy &amp; Security</a></li>
+                        <li><a href="http://www.maryland.gov/pages/accessibility.aspx" target="_blank">Accessibility</a></li>
+                        <li><a href="http://www.maryland.gov/pages/online_services.aspx" target="_blank">More Online Services</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="mdgovFooterBottom" class="mdgov-footer__bottom">
+        <div class="container-fluid">
+            <div class="row">
+                <div id="mdgovFooterContacts" class="mdgov-footer__contacts">
+					100 State Circle, Annapolis, MD 21401<br>
+                    		(410) 974-3901<br>
+		    1-800-811-8336<br>
+		    MD Relay 1-800-735-2258<br>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</footer>
+
+    </div> <!-- Closing of OuterWrap DIV -->
+	
+
+
+    <!-- More social media dialog -->
+<div class="modal fade" id="mdgovMoreSocial" tabindex="-1" role="dialog" aria-labelledby="mdgovMoreSocialTitle">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 class="h4 modal-title" id="mdgovMoreSocialTitle">Our Social Media Channels</h2>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <i class="icon-close" aria-hidden="true"></i>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>We're available on the following channels.</p>
+
+                <!-- See: https://fontawesome.com/icons?d=gallery&s=brands,solid for available icon classes. -->
+                <div class="list-group mdgov-iconList">
+                    <a href="https://plus.google.com/" target="_blank" class="list-group-item list-group-item-action"><i class="fab fa-google-plus-square" aria-hidden="true"></i> Google Plus</a>
+                    <a href="https://www.youtube.com/" target="_blank" class="list-group-item list-group-item-action"><i class="fab fa-youtube-square" aria-hidden="true"></i> YouTube</a>
+                    <a href="#" target="_blank" class="list-group-item list-group-item-action"><i class="fab fa-vimeo-square" aria-hidden="true"></i> Vimeo</a>
+                    <a href="#" target="_blank" class="list-group-item list-group-item-action"><i class="fas fa-video" aria-hidden="true"></i> Video</a>
+                    <a href="https://www.flickr.com/" target="_blank" class="list-group-item list-group-item-action"><i class="fab fa-flickr" aria-hidden="true"></i> Flickr</a>
+                    <a href="https://www.pinterest.com/" target="_blank" class="list-group-item list-group-item-action"><i class="fab fa-pinterest-square" aria-hidden="true"></i> Pinterest</a>
+                    <a href="https://www.snapchat.com/" target="_blank" class="list-group-item list-group-item-action"><i class="fab fa-snapchat-square" aria-hidden="true"></i> Snapchat</a>
+                    <a href="https://www.linkedin.com/" target="_blank" class="list-group-item list-group-item-action"><i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn</a>
+                    <a href="https://www.blogger.com/" target="_blank" class="list-group-item list-group-item-action"><i class="fab fa-blogger" aria-hidden="true"></i> Blogger</a>
+                    <a href="https://del.icio.us/" target="_blank" class="list-group-item list-group-item-action"><i class="fab fa-delicious" aria-hidden="true"></i> Delicious</a>
+                    <a href="https://issuu.com/" target="_blank" class="list-group-item list-group-item-action"><i class="icon-issuu" aria-hidden="true"></i> Issuu</a>
+                    <a href="#" target="_blank" class="list-group-item list-group-item-action"><i class="fas fa-rss-square" aria-hidden="true"></i> RSS Feed</a>
+                    <a href="https://slack.com/" target="_blank" class="list-group-item list-group-item-action"><i class="fab fa-slack" aria-hidden="true"></i> Slack</a>
+                    <a href="https://www.reddit.com/" target="_blank" class="list-group-item list-group-item-action"><i class="fab fa-reddit" aria-hidden="true"></i> Reddit</a>
+                    <a href="https://soundcloud.com/" target="_blank" class="list-group-item list-group-item-action"><i class="fab fa-soundcloud" aria-hidden="true"></i> SoundCloud</a>
+                    <a href="#" target="_blank" class="list-group-item list-group-item-action"><i class="fas fa-podcast" aria-hidden="true"></i> Podcast</a>
+                    <a href="#" target="_blank" class="list-group-item list-group-item-action"><i class="fab fa-itunes" aria-hidden="true"></i> iTunes</a>
+                    <a href="#" target="_blank" class="list-group-item list-group-item-action"><i class="fas fa-newspaper" aria-hidden="true"></i> eNews</a>
+                    <a href="https://public.govdelivery.com/" target="_blank" class="list-group-item list-group-item-action"><i class="icon-govdelivery" aria-hidden="true"></i> GovDelivery</a>
+                </div>
+
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--
+    Loading scripts just before </body> ensures HTML content is downloaded and parsed first.
+    This also means the site can begin to display prior to loading all JS, which helps display performance.
+-->
+<script src="/wp-content/themes/WPMaryland_eGov_Governor/gov/egov/dist/lib/bootstrap-4.1.3/js/bootstrap.bundle.min.js"></script>
+<script src="/wp-content/themes/WPMaryland_eGov_Governor/gov/egov/dist/core/core.min.js"></script>
+<script src="/wp-content/themes/WPMaryland_eGov_Governor/gov/egov/dist/custom/site.js"></script>
+    
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpcf7 = {"apiSettings":{"root":"https:\/\/governor.maryland.gov\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"cached":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://governor.maryland.gov/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=5.1.6'></script>
+<script type='text/javascript' src='https://governor.maryland.gov/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://governor.maryland.gov/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.11.4'></script>
+<script type='text/javascript'>
+jQuery(document).ready(function(jQuery){jQuery.datepicker.setDefaults({"closeText":"Close","currentText":"Today","monthNames":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesShort":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"nextText":"Next","prevText":"Previous","dayNames":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"dayNamesShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"dayNamesMin":["S","M","T","W","T","F","S"],"dateFormat":"MM d, yy","firstDay":1,"isRTL":false});});
+</script>
+<script type='text/javascript' src='https://governor.maryland.gov/wp-content/plugins/contact-form-7-datepicker/js/jquery-ui-timepicker/jquery-ui-timepicker-addon.min.js?ver=699e51f83d99b7bdafb55c64da337ded'></script>
+<script type='text/javascript' src='https://governor.maryland.gov/wp-includes/js/jquery/ui/widget.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://governor.maryland.gov/wp-includes/js/jquery/ui/mouse.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://governor.maryland.gov/wp-includes/js/jquery/ui/slider.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://governor.maryland.gov/wp-includes/js/jquery/ui/button.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://governor.maryland.gov/wp-content/plugins/contact-form-7-datepicker/js/jquery-ui-sliderAccess.js?ver=699e51f83d99b7bdafb55c64da337ded'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var tCountAjax = {"ajaxurl":"https:\/\/governor.maryland.gov\/wp-admin\/admin-ajax.php","countdownNonce":"51e1d7f20a"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://governor.maryland.gov/wp-content/plugins/jquery-t-countdown-widget/js/jquery.t-countdown.js?ver=2.4.0'></script>
+<script type='text/javascript' src='https://governor.maryland.gov/wp-content/plugins/page-links-to/dist/new-tab.js?ver=3.3.2'></script>
+<script type='text/javascript' src='https://governor.maryland.gov/wp-includes/js/wp-embed.min.js?ver=699e51f83d99b7bdafb55c64da337ded'></script>
+</body>
+
+</html>
+<!-- Dynamic page generated in 0.097 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2020-04-01 09:31:42 -->
+
+<!-- super cache -->
