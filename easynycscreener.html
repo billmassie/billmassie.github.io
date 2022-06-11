@@ -244,7 +244,12 @@
     }
 </style>
 <script>
-	alert("hello world");
+	const params = new Proxy(new URLSearchParams(window.location.search), {
+	  get: (searchParams, prop) => searchParams.get(prop),
+	});
+	// Get the value of "some_key" in eg "https://example.com/?some_key=some_value"
+	let value = params.name; // "some_value"
+	alert("hello " + value);
 </script>	
 <script>
     $(function () {
