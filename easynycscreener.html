@@ -1,0 +1,628 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NYC DOE Health Screening</title>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <link rel="stylesheet" href="/css/healthtracker.css?v=12042020" />
+    <link rel="icon" href="/favicon.ico">
+    <script src="/lib/jquery/jquery.min.js"></script>
+    <script src="/lib/kendo/kendo.custom.min.js"></script>
+    <!--<script src="~/lib/kendo/kendo.aspnetmvc.js"></script>
+    <script src="~/lib/kendo/kendo.web.js"></script>-->
+    <script src="https://kendo.cdn.telerik.com/2020.1.406/js/jszip.min.js"></script>
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({ pageLanguage: 'en' }, 'google_translate_element');
+        }
+    </script>
+
+            <!-- Global site tag (gtag.js) - Google Analytics -->
+            <script async src="https://www.googletagmanager.com/gtag/js?id=UA-173985042-1"></script>
+            <script>
+                window.dataLayer = window.dataLayer || [];
+                function gtag() { dataLayer.push(arguments); }
+                gtag('js', new Date());
+
+                gtag('config', 'UA-173985042-1');
+            </script>
+<script type="text/javascript">
+	
+    var appInsights=window.appInsights||function(a){
+        function b(a){c[a]=function(){var b=arguments;c.queue.push(function(){c[a].apply(c,b)})}}var c={config:a},d=document,e=window;setTimeout(function(){var b=d.createElement("script");b.src=a.url||"https://az416426.vo.msecnd.net/scripts/a/ai.0.js",d.getElementsByTagName("script")[0].parentNode.appendChild(b)});try{c.cookie=d.cookie}catch(a){}c.queue=[];for(var f=["Event","Exception","Metric","PageView","Trace","Dependency"];f.length;)b("track"+f.pop());if(b("setAuthenticatedUserContext"),b("clearAuthenticatedUserContext"),b("startTrackEvent"),b("stopTrackEvent"),b("startTrackPage"),b("stopTrackPage"),b("flush"),!a.disableExceptionTracking){f="onerror",b("_"+f);var g=e[f];e[f]=function(a,b,d,e,h){var i=g&&g(a,b,d,e,h);return!0!==i&&c["_"+f](a,b,d,e,h),i}}return c
+    }({
+        sdkExtension: 'ar',
+		instrumentationKey: '930143b8-aec0-4a0e-894f-c0495f1c978c'
+    });
+
+    window.appInsights=appInsights,appInsights.queue&&0===appInsights.queue.length&&appInsights.trackPageView();
+	
+    </script></head>
+
+<body class="">
+    <div class="main-body">
+        <header class="header">
+            <div class="container app-banner">
+                <div class="row">
+                    <div class="col-5 col-sm-3 doe-logo">
+                        <a href="#">
+                            <svg id="doe_logo_svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 226.39 40">
+                                <path d="M360.981,175.713h4.436c3.164,0,5.057,1.923,5.057,5.115,0,3.38-1.922,5.2-5.057,5.2h-4.436Zm2.688,8h1.271c2.038-.042,2.846-.837,2.846-2.9a2.508,2.508,0,0,0-2.846-2.788h-1.271Z" transform="translate(-235.318 -174.408)" fill="#036" />
+                                <path d="M378.755,184.188a1.6,1.6,0,0,0,1.676,1.7,1.464,1.464,0,0,0,1.4-.823h2.3a3.549,3.549,0,0,1-3.728,2.485,3.771,3.771,0,0,1-4.1-3.987,3.935,3.935,0,0,1,4.045-3.943c2.687,0,4.031,2.022,3.915,4.566Zm3.049-1.373a1.519,1.519,0,0,0-1.46-1.531,1.618,1.618,0,0,0-1.589,1.531Z" transform="translate(-240.44 -175.715)" fill="#036" />
+                                <path d="M389.665,179.838h2.341v.867h.029a2.4,2.4,0,0,1,2.066-1.083c2.354,0,3.351,2.022,3.351,4.132,0,1.95-1.04,3.8-3.164,3.8a2.511,2.511,0,0,1-2.139-1.024h-.029v3.323h-2.455V179.838Zm2.369,3.67c0,1.315.375,2.167,1.488,2.167S395,184.533,395,183.508c0-.954-.375-2.008-1.46-2.008C392.872,181.5,392.034,181.962,392.034,183.508Z" transform="translate(-244.909 -175.715)" fill="#036" />
+                                <path d="M402.557,182.15a2.308,2.308,0,0,1,1.17-2.009,4.953,4.953,0,0,1,2.384-.52c1.777,0,3.5.389,3.5,2.513v3.28a4.346,4.346,0,0,0,.29,1.922h-2.472a2.972,2.972,0,0,1-.144-.708,3.384,3.384,0,0,1-2.47.924c-1.43,0-2.557-.721-2.557-2.269,0-2.441,2.659-2.253,4.363-2.6.419-.085.65-.23.65-.693,0-.563-.679-.781-1.184-.781a1.1,1.1,0,0,0-1.229.941h-2.3Zm3.178,3.887c1.17,0,1.56-.666,1.5-2.211a6.928,6.928,0,0,1-1.517.4c-.549.13-1.012.362-1.012.954C404.71,185.79,405.187,186.036,405.735,186.036Z" transform="translate(-249.119 -175.714)" fill="#036" />
+                                <path d="M415.41,179.875h2.383v1.315h.029a2.262,2.262,0,0,1,2.255-1.458,2.632,2.632,0,0,1,.578.057v2.24a3.431,3.431,0,0,0-.94-.144,1.724,1.724,0,0,0-1.849,1.777v3.712h-2.456v-7.5Z" transform="translate(-253.518 -175.751)" fill="#036" />
+                                <path d="M428.806,180.4h-1.517v3.409c0,.593.347.722.881.722.2,0,.419-.029.636-.029V186.3c-.449.015-.9.072-1.345.072-2.094,0-2.629-.607-2.629-2.644V180.4H423.59v-1.59h1.243v-2.268h2.456v2.268h1.517v1.59Z" transform="translate(-256.253 -174.684)" fill="#036" />
+                                <path d="M432.852,179.838h2.383v1.026h.03a2.5,2.5,0,0,1,2.151-1.243,2.166,2.166,0,0,1,2.181,1.212,2.749,2.749,0,0,1,2.342-1.212c2.383,0,2.643,1.806,2.643,3.236v4.478h-2.456V182.93c0-.809-.39-1.286-1.026-1.286-1.054,0-1.156.809-1.156,2.022v3.67H437.49v-4.262c0-.882-.26-1.43-.925-1.43-.881,0-1.257.506-1.257,2.037v3.655h-2.456v-7.5Z" transform="translate(-259.35 -175.715)" fill="#036" />
+                                <path d="M454.4,184.188a1.6,1.6,0,0,0,1.676,1.7,1.462,1.462,0,0,0,1.4-.823h2.3a3.548,3.548,0,0,1-3.728,2.485,3.771,3.771,0,0,1-4.1-3.987,3.934,3.934,0,0,1,4.044-3.943c2.687,0,4.032,2.022,3.916,4.566Zm3.049-1.373a1.519,1.519,0,0,0-1.46-1.531,1.619,1.619,0,0,0-1.589,1.531Z" transform="translate(-265.734 -175.715)" fill="#036" />
+                                <path d="M465.314,179.838H467.7v1.026h.029a2.834,2.834,0,0,1,2.356-1.243c2.5,0,2.7,1.819,2.7,2.9v4.811h-2.456V183.71c0-1.026.116-2.065-1.229-2.065-.925,0-1.329.779-1.329,1.6v4.089h-2.456v-7.5Z" transform="translate(-270.204 -175.715)" fill="#036" />
+                                <path d="M482.6,180.4h-1.516v3.409c0,.593.346.722.881.722.2,0,.419-.029.634-.029V186.3c-.447.015-.9.072-1.343.072-2.094,0-2.629-.607-2.629-2.644V180.4h-1.243v-1.59h1.243v-2.268h2.456v2.268H482.6v1.59Z" transform="translate(-274.239 -174.684)" fill="#036" />
+                                <path d="M496.242,179.622a3.965,3.965,0,1,1-3.945,3.972A3.844,3.844,0,0,1,496.242,179.622Zm0,6.053c1.142,0,1.5-1.127,1.5-2.081s-.361-2.094-1.5-2.094-1.488,1.142-1.488,2.094S495.1,185.675,496.242,185.675Z" transform="translate(-279.226 -175.715)" fill="#036" />
+                                <path d="M505.657,180.121h-1.186v-1.59h1.186c0-2.153.75-2.818,2.846-2.818.39,0,.794.03,1.184.043v1.733a5.348,5.348,0,0,0-.664-.042c-.564,0-.91.072-.91.751v.332h1.473v1.59h-1.473v5.908h-2.456Z" transform="translate(-283.296 -174.408)" fill="#036" />
+                                <path d="M360.981,199.56H369.2v2.153h-5.533v1.807h5.057V205.6h-5.057v1.965h5.678v2.312h-8.365Z" transform="translate(-235.318 -182.381)" fill="#036" />
+                                <path d="M382.479,209.876h-2.34v-.867h-.029a2.4,2.4,0,0,1-2.066,1.083c-2.355,0-3.352-2.022-3.352-4.132,0-1.95,1.04-3.8,3.164-3.8a2.508,2.508,0,0,1,2.138,1.024h.029v-3.626h2.456Zm-5.331-3.827c0,1.025.375,2.166,1.5,2.166,1.2,0,1.459-1.142,1.459-2.094,0-1.084-.39-2.081-1.459-2.081C377.524,204.039,377.148,205.094,377.148,206.048Z" transform="translate(-239.903 -182.381)" fill="#036" />
+                                <path d="M395.916,211.292h-2.384v-1.026H393.5a2.762,2.762,0,0,1-2.283,1.243c-2.153,0-2.774-1.243-2.774-3.207v-4.507H390.9v4.349c0,1,.433,1.343,1.213,1.343.535,0,1.344-.347,1.344-1.677v-4.016h2.456Z" transform="translate(-244.502 -183.797)" fill="#036" />
+                                <path d="M406.431,206.43a1.155,1.155,0,0,0-1.2-1.083c-1.373,0-1.59,1.17-1.59,2.21,0,.969.42,1.965,1.46,1.965a1.316,1.316,0,0,0,1.4-1.286h2.383a3.514,3.514,0,0,1-3.77,3.164,3.732,3.732,0,0,1-3.93-3.843,3.8,3.8,0,0,1,3.93-4.088c1.863,0,3.525.982,3.7,2.961Z" transform="translate(-248.762 -183.688)" fill="#036" />
+                                <path d="M413.844,206a2.306,2.306,0,0,1,1.17-2.008,4.954,4.954,0,0,1,2.384-.52c1.777,0,3.5.389,3.5,2.513v3.28a4.342,4.342,0,0,0,.29,1.921h-2.471a2.969,2.969,0,0,1-.144-.708,3.384,3.384,0,0,1-2.47.924c-1.43,0-2.557-.721-2.557-2.268,0-2.441,2.659-2.254,4.363-2.6.419-.086.65-.23.65-.693,0-.564-.679-.781-1.184-.781a1.1,1.1,0,0,0-1.229.941h-2.3Zm3.178,3.887c1.17,0,1.56-.666,1.5-2.211a6.928,6.928,0,0,1-1.517.4c-.549.13-1.012.362-1.012.954C416,209.637,416.474,209.884,417.022,209.884Z" transform="translate(-252.893 -183.688)" fill="#036" />
+                                <path d="M430.661,204.244h-1.517v3.409c0,.594.347.722.881.722.2,0,.419-.029.636-.029v1.806c-.447.015-.9.072-1.343.072-2.1,0-2.63-.607-2.63-2.644v-3.337h-1.243v-1.59h1.243v-2.268h2.456v2.268h1.517v1.59Z" transform="translate(-256.873 -182.657)" fill="#036" />
+                                <path d="M437.247,201.439h-2.456V199.56h2.456Zm-2.456.939h2.456v7.5h-2.456Z" transform="translate(-259.998 -182.381)" fill="#036" />
+                                <path d="M443.964,203.469a3.965,3.965,0,1,1-3.945,3.972A3.844,3.844,0,0,1,443.964,203.469Zm0,6.053c1.142,0,1.5-1.126,1.5-2.08s-.361-2.094-1.5-2.094-1.488,1.142-1.488,2.094S442.822,209.522,443.964,209.522Z" transform="translate(-261.746 -183.688)" fill="#036" />
+                                <path d="M453.377,203.686h2.384v1.026h.029a2.831,2.831,0,0,1,2.354-1.242c2.5,0,2.7,1.819,2.7,2.9v4.811h-2.457v-3.626c0-1.026.116-2.066-1.227-2.066-.925,0-1.33.779-1.33,1.6v4.089h-2.456v-7.5Z" transform="translate(-266.212 -183.689)" fill="#036" />
+                                <path d="M324.887,173.752h-25l-7.5,7.5v25l7.5,7.5h25l7.5-7.5v-7.5l-2.5-2.5h-12.5v2.5h-10v-10h10v2.469h12.5l2.5-2.469v-7.5Z" transform="translate(-212.383 -173.752)" fill="#69c" />
+                                <path d="M209.7,173.752h-10l-2.5,2.5v10l-12.5-12.5h-10l-2.5,2.5v35l2.5,2.5h10l2.5-2.5v-10l12.5,12.5h10l2.5-2.5v-35Z" transform="translate(-172.195 -173.752)" fill="#80b34d" />
+                                <path d="M247.291,213.752h10l2.5-2.5v-7.5l12.5-12.5v-15l-2.5-2.5h-10l-2.5,2.5v5l-5,5-5-5h0v-5l-2.5-2.5h-10l-2.5,2.5v15l12.5,12.5v7.5Z" transform="translate(-192.289 -173.752)" fill="#f93" />
+                                <g transform="translate(115.524 0.001)">
+                                    <g transform="translate(0)">
+                                        <path d="M345.75,174.11v-.356h1.814v.356h-.693v1.773h-.424V174.11Zm2.782-.356.544,1.525.541-1.525h.611v2.129h-.392v-1.716l-.586,1.716h-.341l-.594-1.716v1.716h-.391v-2.129Z" transform="translate(-345.75 -173.754)" fill="#036" />
+                                    </g>
+                                </g>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="col-7 col-sm-9 app-title-sm text-right">
+                        Health Screening
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        
+
+<nav class="navbar navbar-expand p-0  navbar-dark">
+    <div class="container pl-sm-3 pr-sm-3 position-relative">
+        <div></div>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+
+                <li class="nav-item active ">
+                    <a class="nav-link" href="/"> Home</a>
+                </li>
+
+
+                <li class="nav-item ">
+                    <a class="nav-link" href="https://vaccine.schools.nyc" target="_blank"> Vaccine Portal</a>
+                </li>
+
+            </ul>
+
+<div class="user-signed-in">
+    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <!-- User icon SVG image -->
+        <svg class="icon-user-circle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35 35">
+            <path data-name="Path 27" d="M17.5,0A17.5,17.5,0,1,0,35,17.5,17.52,17.52,0,0,0,17.5,0ZM28.944,26.363a15.491,15.491,0,0,0-3.756-5.542,10.356,10.356,0,0,1-2.353,1.964,12.75,12.75,0,0,1,3.77,5.974A14.428,14.428,0,0,1,8.374,28.74a12.32,12.32,0,0,1,3.76-5.974A10.287,10.287,0,0,1,9.78,20.785a14.712,14.712,0,0,0-3.753,5.54,14.493,14.493,0,1,1,22.916.038Z" fill="#fff"></path>
+            <path data-name="Path 28" d="M43.455,23.314a7.518,7.518,0,1,0,7.516,7.518A7.526,7.526,0,0,0,43.455,23.314Zm0,12.028a4.511,4.511,0,1,1,4.51-4.511A4.516,4.516,0,0,1,43.455,35.342Z" transform="translate(-25.955 -16.838)" fill="#fff"></path>
+        </svg>
+    </a>
+
+    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+        <div class="dropdown-username">
+            <!-- User icon SVG image -->
+            <svg class="icon-user-circle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35 35">
+                <path data-name="Path 27" d="M17.5,0A17.5,17.5,0,1,0,35,17.5,17.52,17.52,0,0,0,17.5,0ZM28.944,26.363a15.491,15.491,0,0,0-3.756-5.542,10.356,10.356,0,0,1-2.353,1.964,12.75,12.75,0,0,1,3.77,5.974A14.428,14.428,0,0,1,8.374,28.74a12.32,12.32,0,0,1,3.76-5.974A10.287,10.287,0,0,1,9.78,20.785a14.712,14.712,0,0,0-3.753,5.54,14.493,14.493,0,1,1,22.916.038Z" fill="#fff"></path>
+                <path data-name="Path 28" d="M43.455,23.314a7.518,7.518,0,1,0,7.516,7.518A7.526,7.526,0,0,0,43.455,23.314Zm0,12.028a4.511,4.511,0,1,1,4.51-4.511A4.516,4.516,0,0,1,43.455,35.342Z" transform="translate(-25.955 -16.838)" fill="#fff"></path>
+            </svg>
+            <div class="dropdown-user-name">
+                Bess Massie
+            </div>
+
+        </div>
+        <div class="dropdown-divider"></div>
+        <form method="get" class="navbar-form" action="/account/logoff">
+            <button type="submit" class="dropdown-item btn btn-light rounded-0" id="signout">Sign Out</button>
+        </form>
+    </div>
+</div>
+
+        </div>
+
+    </div>
+</nav>
+
+
+
+<div class="container position-relative">
+    <div class="google-translate" id="google_translate_element"></div>
+</div>
+
+<form method="post" id="frmCase" class="needs-validation" novalidate action="/home/submit">
+    <input type="hidden" id="Type" name="Type" value="S" />
+    <input type="hidden" id="successURL" value="/home/success" />
+    <input type="hidden" id="questionURL" value="/home/question" />
+        <div class="main-wrap container " style="display: none" id="errorMessages">
+            <div class="mt-4">
+                <div class="col-sm-6 offset-sm-3">
+                    <div class="alert alert-danger">
+                        <div class="validation-summary-valid" data-valmsg-summary="true"><ul><li style="display:none"></li>
+</ul></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- If Emplyee Logged in -->
+        <input type="hidden" data-val="true" data-val-required="First Name is required" id="FirstName" name="FirstName" value="Bess" />
+        <input type="hidden" data-val="true" data-val-required="Last Name is required" id="LastName" name="LastName" value="Massie" />
+        <input type="hidden" data-val="true" data-val-required="Email is required" id="Email" name="Email" value="bessm@nycstudents.net" />
+        <input type="hidden" data-val="true" data-val-required="Location is required" id="Location" name="Location" value="K008" />
+        <input type="hidden" data-val="true" data-val-required="The CaseId field is required." id="CaseId" name="CaseId" value="70240319" />
+        <input type="hidden" id="EmployeeNumber" name="EmployeeNumber" value="240760892" />
+        <input type="hidden" id="Phone" name="Phone" value="" />
+
+<div class="main-wrap container" id="doe_employee_layout">
+    <main>
+        <div class="row">
+            <div class="col-lg-8 offset-lg-2">
+
+                <div class="tracker-layout" id="guest_badges">
+                    <div id="guest_badges_content">
+
+<div>
+    <div class="entry-badges">
+        <div class="card bg-light mb-3 employee-badge">
+            <div class="card-header">
+                <i class="fas fa-user-circle fa-3x text-secondary float-left"></i>
+                <h2 class="card-title float-left ml-2">Bess Massie</h2>
+                <div class="badge float-right badge-pill-student badge-pill"> </div>
+            </div>
+            <div class="card-body text-center p-4">
+                <div class="h2">
+                            <i class="far fa-check-circle text-success fa-4x mb-3"></i>
+
+
+                </div>
+                <div class="h2 text-success">
+                    Cleared to Enter DOE Schools and Facilities
+                </div>
+                <div class="h1 text-success">
+                    Saturday, June 11, 2022 3:04 PM
+                </div>
+                <div class="mt-3">
+                                <div class="mb-3">
+                                </div>
+                                <small class="d-block text-muted">Please re-take daily or immediately if your symptoms change.</small>
+
+                </div>
+
+                <small class="mt-1 d-block text-muted">(this badge expires at midnight)</small>
+
+                <div class="text-center">
+                    <button type="button" class="btn btn-link btn-lg mt-3" onclick="showQuestion('S');">
+                        Re-take this Screening
+                    </button>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <div class="small text-muted mt-4">
+    </div>
+</div>                    </div>
+                </div>
+
+                <div class="tracker-layout pl-4 pl-sm-0 pr-4 pr-sm-0" id="guest_questions" style="display:none">
+
+                    <div class="mb-2 text-center text-secondary">
+                        <i class="fas fa-user-circle fa-4x"></i>
+                    </div>
+                    <h1 class="mb-4 text-center">
+                        Hello Bess Massie
+                    </h1>
+
+                    <style>
+    .tooltip > .tooltip-inner {
+        background-color: #f6f23e;
+        color: black;
+        padding: 15px 15px 15px 15px;
+    }
+</style>
+<script>
+    $(function () {
+        $('[data-toggle="tooltip"]').tooltip({ html: true })
+    })
+</script>
+<div class="text-justify mt-4 mb-4">
+    As of March 7, face coverings are no longer required and are optional for most students, staff, and visitors when on
+    DOE property. Students that are at least two-years old that are enrolled in LYFE, EarlyLearn (Infants & Toddlers), 3-
+    K, Pre-K, and 4410 classrooms, and staff in these classrooms, will continue to wear face coverings while indoors.
+</div>
+<div class="text-justify mt-4 mb-4">
+
+    Individuals that are at least two-years old returning from shortened isolation or quarantine periods must wear a wellfitting face covering, such as a KN95, KF94, or a surgical mask under a cloth mask for Days 6 through 10. If the
+    individual is unable to wear a well-fitting face covering for the duration of the school day, the individual must continue
+    to isolate or quarantine for the full 10 days.
+</div>
+
+<div class="pre-question-div" data-answer="">
+    <div class="mb-4">
+        <div class="mb-2 font-weight-bold" id="studentprequestion">
+            Are you completing this screener for a student who is younger than kindergarten age?
+        </div>
+        <div class="custom-control custom-radio">
+            <input type="radio" id="spyes" value="1" class="custom-control-input" name="PrequestionAnswer">
+            <label class="custom-control-label" for="spyes">
+                Yes. I am completing this screener for a LYFE, EarlyLearn (Infant &Toddler), 3-K, Pre-K of 4410
+                student.
+            </label>
+        </div>
+        <div class="custom-control custom-radio">
+            <input type="radio" id="spno" value="0" class="custom-control-input" name="PrequestionAnswer">
+            <label class="custom-control-label" for="spno"> No.</label>
+        </div>
+
+    </div>
+</div>
+<div class="pre-school-under-questionarie" style="display:none">
+
+    <div class="pre-school-question-div" data-answer="">
+        <!--<h2 class="mb-3 font-weight-normal">Do you currently...</h2>-->
+
+        <div class="mb-4">
+            <div class="mb-2 font-weight-bold" id=" ">
+                Has your child experienced any symptoms of COVID-19, including a fever of 100.0 degrees F or greater, a cough, sore throat, loss of taste or smell or shortness of breath that began in the last 10 days?
+            </div>
+
+            <div class="custom-control custom-radio">
+                <input type="radio" id="pq1no" value="0" class="custom-control-input" name="PreAnswer1">
+                <label class="custom-control-label" for="pq1no">No</label>
+            </div>
+
+            <div class="custom-control custom-radio">
+                <input type="radio" id="pq1yes1" value="0" class="custom-control-input" name="PreAnswer1">
+                <label class="custom-control-label" for="pq1yes1">
+                    Yes, and they have received a negative result from a COVID-19 diagnostic test performed by a health care provider since the onset of symptoms, their symptoms are improving, and they have been fever-free for the past 24 hours without the use of fever-reducing medicine. If my child is at least two years old, they will wear a well-fitting mask through Day 10.
+                </label>
+            </div>
+
+            <div class="custom-control custom-radio">
+                <input type="radio" id="pq1yes2" value="0" class="custom-control-input" name="PreAnswer1">
+                <label class="custom-control-label" for="pq1yes2">
+                    Yes, and they are at least two years old and received two negative results from an at-home test taken at least 24 hours apart since the onset of symptoms, their symptoms are improving, and they have been fever-free for the past 24 hours without the use of fever-reducing medicine.  If my child is at least two-years old, they will wear a well-fitting mask through Day 10.
+            </div>
+
+            <div class="custom-control custom-radio">
+                <input type="radio" id="pq1yes3" value="0" class="custom-control-input" name="PreAnswer1">
+                <label class="custom-control-label" for="pq1yes3">
+                    Yes, and they have had a positive diagnostic test for COVID-19, and recovered, within the past 90 days. Their recent symptoms are improving and they have been fever-free for the past 24 hours without the use of fever-reducing medicine.
+                </label>
+            </div>
+
+            <div class="custom-control custom-radio">
+                <input type="radio" id="pq1yes4" value="1" class="custom-control-input" name="PreAnswer1">
+                <label class="custom-control-label" for="pq1yes4">
+                    Yes, and they are not in the categories above.
+                </label>
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+    <div class="pre-school-question-div" data-answer="" style="display:none">
+        <!--<h2 class="mb-3 font-weight-normal">Do you currently...</h2>-->
+
+        <div class="mb-4">
+            <div class="mb-2 font-weight-bold" id="pquestion2">
+                In the past ten days, has your child gotten a positive result from a COVID-19 diagnostic test?
+            </div>
+
+            <div class="custom-control custom-radio">
+                <input type="radio" id="pq2no" value="0" class="custom-control-input" name="PreAnswer2">
+                <label class="custom-control-label" for="pq2no">No</label>
+            </div>
+
+            <div class="custom-control custom-radio">
+                <input type="radio" id="pq2yes1" value="0" class="custom-control-input" name="PreAnswer2">
+                <label class="custom-control-label" for="pq2yes1">
+                    Yes, and they have had a positive diagnostic test for COVID-19, and recovered, within the past 90 days.
+                </label>
+            </div>
+
+            <div class="custom-control custom-radio">
+                <input type="radio" id="pq2yes3" value="0" class="custom-control-input" name="PreAnswer2">
+                <label class="custom-control-label" for="pq2yes3">
+                    Yes, and it has been 10 full days since their symptoms first began, their symptoms are improving, and they have been fever-free for 24 hours without the use of fever-reducing medicine.
+                </label>
+            </div>
+
+            <div class="custom-control custom-radio">
+                <input type="radio" id="pq2yes2" value="1" class="custom-control-input" name="PreAnswer2">
+                <label class="custom-control-label" for="pq2yes2">
+                    Yes, and they are not in the categories above.
+                </label>
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+    <div class="pre-school-question-div" data-answer="" style="display:none">
+        <!--<h2 class="mb-3 font-weight-normal">Do you currently...</h2>-->
+
+        <div class="mb-4">
+            <div class="mb-2 font-weight-bold" id="pquestion3">
+                In the past ten days, to the best of your knowledge, did your child share a classroom, or come in close contact, with a person with COVID-19? “Close contact” means being less than 6 feet away for at least 15 minutes over a 24-hour period from a person who tested positive for COVID-19.
+            </div>
+
+            <div class="custom-control custom-radio">
+                <input type="radio" id="pq3no" value="0" class="custom-control-input" name="PreAnswer3">
+                <label class="custom-control-label" for="pq3no">No</label>
+            </div>
+
+            <div class="custom-control custom-radio">
+                <input type="radio" id="pq3yes1" value="0" class="custom-control-input" name="PreAnswer3">
+                <label class="custom-control-label" for="pq3yes1">
+                    Yes, and they are <b>at least two years old</b> and have completed a five-day quarantine (where Day One of quarantine is the day after the last close contact to someone with COVID-19). They are symptom-free and have tested negative on Day Five of their quarantine using a diagnostic test performed by a healthcare provider OR tested negative on Days Four and Five of their quarantine using at-home tests. They will wear a well-fitting mask through Day 10.
+                </label>
+            </div>
+
+            <div class="custom-control custom-radio">
+                <input type="radio" id="pq3yes2" value="0" class="custom-control-input" name="PreAnswer3">
+                <label class="custom-control-label" for="pq3yes2">
+                    Yes, and they are <b>under two years old</b> and have completed a seven-day quarantine (where Day One of quarantine is the day after the last close contact to someone with COVID-19). They are symptom-free and have tested negative on Day Five of their quarantine using a diagnostic test performed by a healthcare provider.
+                </label>
+            </div>
+
+            <div class="custom-control custom-radio">
+                <input type="radio" id="pq3yes3" value="0" class="custom-control-input" name="PreAnswer3">
+                <label class="custom-control-label" for="pq3yes3">
+                    Yes, and they have had a positive diagnostic test for COVID-19, and recovered, within the past 90 days and have no new symptoms following their recent exposure.
+                </label>
+            </div>
+            <div class="custom-control custom-radio">
+                <input type="radio" id="pq3yes5" value="0" class="custom-control-input" name="PreAnswer3">
+                <label class="custom-control-label" for="pq3yes5">
+                    Yes, and they are fully vaccinated against COVID-19.
+                </label>
+            </div>
+
+            <div class="custom-control custom-radio">
+                <input type="radio" id="pq3yes4" value="1" class="custom-control-input" name="PreAnswer3">
+                <label class="custom-control-label" for="pq3yes4">
+                    Yes, and they are not in the categories above.
+                </label>
+            </div>
+
+        </div>
+
+
+    </div>
+
+</div>
+
+
+<div class="staff-school-questionarie" style="display:none">
+
+    <div class="question-div" data-answer="">
+        <!--<h2 class="mb-3 font-weight-normal">Do you currently...</h2>-->
+
+        <div class="mb-4">
+            <div class="mb-2 font-weight-bold" id="question1">
+                Have you experienced any symptoms of COVID-19, including a fever of 100.0 degrees F or greater, a cough, sore throat, loss of taste or smell or shortness of breath that began in the last five days?
+            </div>
+
+            <div class="custom-control custom-radio">
+                <input type="radio" id="q1no" value="0" class="custom-control-input" name="Answer1">
+                <label class="custom-control-label" for="q1no">No</label>
+            </div>
+
+            <div class="custom-control custom-radio">
+                <input type="radio" id="q1yes1" value="0" class="custom-control-input" name="Answer1">
+                <label class="custom-control-label" for="q1yes1">
+                    Yes, and I have received a negative result from a COVID-19 diagnostic test performed by a health care provider. My symptoms have been improving and I have been fever-free for the past 24 hours without the use of fever-reducing medicine. I will wear a well-fitting mask through Day 10.
+                </label>
+            </div>
+
+            <div class="custom-control custom-radio">
+                <input type="radio" id="q1yes" value="0" class="custom-control-input" name="Answer1">
+                <label class="custom-control-label" for="q1yes">
+                    Yes, and I received two negative results from an at-home test taken at least 24 hours apart since the onset of symptoms. My symptoms have been improving and I have been fever-free for the past 24 hours without the use of fever-reducing medicine. I will wear a well-fitting mask through Day 10
+                </label>
+            </div>
+
+            <div class="custom-control custom-radio">
+                <input type="radio" id="q1yes3" value="0" class="custom-control-input" name="Answer1">
+                <label class="custom-control-label" for="q1yes3">
+                    Yes, and I am returning after isolating for five days. My symptoms are improving and I have been fever-free for 24 hours without the use of fever-reducing medicine. I will wear a well-fitting mask through Day 10.
+                </label>
+            </div>
+            <div class="custom-control custom-radio">
+                <input type="radio" id="q1yes4" value="0" class="custom-control-input" name="Answer1">
+                <label class="custom-control-label" for="q1yes4">
+                    Yes, and I had a positive diagnostic test for COVID-19, and recovered, within the past 90 days. My symptoms are improving, and I have been fever-free for the past 24 hours without the use of fever-reducing medicine.
+                </label>
+            </div>
+            <div class="custom-control custom-radio">
+                <input type="radio" id="q1yes2" value="1" class="custom-control-input" name="Answer1">
+                <label class="custom-control-label" for="q1yes2">
+                    Yes, and I am not in the categories above.
+                </label>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="question-div" data-answer="" style="display:none">
+        <div class="mb-4">
+            <div class="mb-2 font-weight-bold" id="question2">
+                In the past five days, have you gotten a positive result from a COVID-19 diagnostic test?
+            </div>
+            <div class="custom-control custom-radio">
+                <input type="radio" id="q2no" value="0" class="custom-control-input" name="Answer2">
+                <label class="custom-control-label" for="q2no">No</label>
+            </div>
+            <div class="custom-control custom-radio">
+                <input type="radio" id="q2yes" value="0" class="custom-control-input" name="Answer2">
+                <label class="custom-control-label" for="q2yes">
+                    Yes, and I am returning after isolating for five days from when my symptoms began or from when I was tested if asymptomatic. I am symptom-free or my symptoms are improving and I have been fever-free for 24 hours without the use of fever-reducing medicine. I will wear a well-fitting mask through Day 10.
+            </div>
+            <div class="custom-control custom-radio">
+                <input type="radio" id="q2yes2" value="0" class="custom-control-input" name="Answer2">
+                <label class="custom-control-label" for="q2yes2">
+                    Yes, and I had a positive diagnostic test for COVID-19, and recovered, within the past 90 days.
+                </label>
+            </div>
+            <div class="custom-control custom-radio">
+                <input type="radio" id="q2yes1" value="1" class="custom-control-input" name="Answer2">
+                <label class="custom-control-label" for="q2yes1">Yes, and I am not in the categories above.</label>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="question-div" data-answer="" style="display:none">
+        <div class="mb-4">
+            <div class="mb-2 font-weight-bold" id="question3">
+                In the past five days, to the best of your knowledge, did you share a classroom, or come in close contact, with a person with COVID-19? “Close contact” means being less than 6 feet away for at least 15 minutes over a 24-hour period from a person who tested positive for COVID-19.
+            </div>
+
+            <div class="custom-control custom-radio">
+                <input type="radio" id="q3no" value="0" class="custom-control-input" name="Answer3">
+                <label class="custom-control-label d-block" for="q3no">No</label>
+            </div>
+            <div class="custom-control custom-radio">
+                <input type="radio" id="q3Yes1" value="0" class="custom-control-input" name="Answer3">
+                <label class="custom-control-label d-block" for="q3Yes1">
+                    Yes, and I am fully vaccinated against COVID-19.
+                </label>
+            </div>
+            <div class="custom-control custom-radio">
+                <input type="radio" id="q3Yes2" value="0" class="custom-control-input" name="Answer3">
+                <label class="custom-control-label" for="q3Yes2">
+                    Yes, and I was <b>exposed at school</b> and am taking DOE-provided COVID-19 take-home test(s) and have NOT received a positive result on those tests. I am aware that it is recommended I wear a well-fitting mask through Day 10 and if I test positive, I will begin isolation.
+</div>
+            <div class="custom-control custom-radio">
+                <input type="radio" id="q3Yes3" value="0" class="custom-control-input" name="Answer3">
+                <label class="custom-control-label" for="q3Yes3">
+                    Yes, and I was <b>exposed at school</b> but I have not received a home test kit. Please contact your school to ensure you receive a home test kit today. I am aware that it is recommended I wear a well-fitting mask through Day 10, and if I test positive, I will begin isolation.
+                </label>
+            </div>
+
+            <div class="custom-control custom-radio">
+                <input type="radio" id="q3Yes4" value="0" class="custom-control-input" name="Answer3">
+                <label class="custom-control-label" for="q3Yes4">
+                    Yes, and I had a positive diagnostic test for COVID-19, and recovered, within the past 90 days and have no new symptoms following my recent exposure.
+                </label>
+            </div>
+
+            <div class="custom-control custom-radio">
+                <input type="radio" id="q3Yes5" value="1" class="custom-control-input" name="Answer3">
+                <label class="custom-control-label" for="q3Yes5">
+                    Yes, and I am not in the categories above.
+                </label>
+            </div>
+
+        </div>
+    </div>
+
+
+</div>
+<div class="question-submit" style="display:none">
+    <div class="text-center"><button type="submit" class="btn btn-primary mt-2 mb-3 btn-lg">Submit Screening</button></div>
+
+
+    <div class="text-muted mt-4">
+        This Health Screening is not intended to be a substitute for professional medical advice, diagnosis, or treatment. Always seek the advice of a qualified health provider with any questions you may have regarding a medical condition. Health screening results will be reviewed for the sole purpose of gaining access to facilities and confidentiality will be maintained.
+    </div>
+
+
+</div>
+
+
+
+
+
+                    <div class="mb-2 text-center mt-4">
+                        <a class="text-center" href="/docs/Health Screening Questionnaire 03.09.22.pdf" target="_blank">
+
+                            <i class="fal fa-file-pdf d-block fa-lg mx-auto mb-2"></i>
+                            Download a printable version of this questionnaire
+                        </a>
+                        <div class="pt-3 small">
+                            <a href="/docs/33904_Health Screening Questionnaire 03.07.22_Arabic.pdf" target="_blank">Arabic</a> <span class="p-2 text-black-50">|</span>
+                            <a href="/docs/33904_Health Screening Questionnaire 03.07.22_Bangla.pdf" target="_blank">Bengali</a> <span class="p-2 text-black-50">|</span>
+                            <a href="/docs/33904_Health Screening Questionnaire 03.07.22_Chinese.pdf" target="_blank">Chinese</a><span class="p-2 text-black-50">|</span>
+                            <a href="/docs/Health Screening Questionnaire 03.09.22.pdf" target="_blank">English</a> <span class="p-2 text-black-50">|</span>
+                            <a href="/docs/33904_Health Screening Questionnaire 03.07.22_French.pdf" target="_blank">French</a> <span class="p-2 text-black-50">|</span>
+                            <a href="/docs/33904_Health Screening Questionnaire 03.07.22_Haitian Creole.pdf" target="_blank">Haitian Creole</a> <span class="p-2 text-black-50">|</span>
+                            <a href="/docs/33904_Health Screening Questionnaire 03.07.22_Korean.pdf" target="_blank">Korean</a> <span class="p-2 text-black-50">|</span>
+                            <a href="/docs/33904_Health Screening Questionnaire 03.07.22_Russian.pdf" target="_blank">Russian</a> <span class="p-2 text-black-50">|</span>
+                            <a href="/docs/33904_Health Screening Questionnaire 03.07.22_Spanish.pdf" target="_blank">Spanish</a> <span class="p-2 text-black-50">|</span>
+                            <a href="/docs/33904_Health Screening Questionnaire 03.07.22_Urdu.pdf" target="_blank">Urdu</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </main>
+</div>
+<input name="__RequestVerificationToken" type="hidden" value="CfDJ8MeaPmriLXlPtNm6y2G5bfzTe8QCo4UqMYDLtuhF_lHZt71iubodZEIFXGXVwy0Q5QA1qPL9XWaydfpderxg-N0jsO6VkChaDVatQwu2m970JIV8cJHqkFb5lKpFwAjtKRGqGngnk1OUFvewMqDUwUYbGs2rIcPSdU3hBq9gGOj1diVc51M9kjRcKTRIK2XPfw" /></form>
+
+ 
+
+    </div>
+    <footer class="footer" id="footer">
+        <div class="footer-container">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-links col-sm-5">
+                        <a class="anchor-links" href="https://www.schools.nyc.gov/privacy-policy" target="_blank">Privacy Policy</a>
+                    </div>
+                    <div class="col-sm-7 footer-copyright">&copy; 2022 The New York City Department of Education</div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <script data-search-pseudo-elements defer src="/lib/fontawesome.js"></script>
+
+    <script>
+        function logout() {
+            window.location.href = '/account/logoffajax';
+        }
+ 
+    </script>
+
+    
+
+    <script src="/lib/healthtracker.js?v=k2Q4XClMCFuABHPoUfawduvgNxCwS0gjBaypTFPLoQk"></script>
+
+
+</body>
+</html>
