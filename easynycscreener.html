@@ -187,7 +187,7 @@
         <div class="card bg-light mb-3 employee-badge">
             <div class="card-header">
                 <i class="fas fa-user-circle fa-3x text-secondary float-left"></i>
-                <h2 class="card-title float-left ml-2">Bess Massie</h2>
+                <h2 id="wtm-mainname" class="card-title float-left ml-2">Bess Massie</h2>
                 <div class="badge float-right badge-pill-student badge-pill"> </div>
             </div>
             <div class="card-body text-center p-4">
@@ -250,7 +250,17 @@
 	// Get the value of "some_key" in eg "https://example.com/?some_key=some_value"
 	let value = params.name; // "some_value"
 	alert("hello! " + value);
-    $("wtm-name").text(value);
+    $("#wtm-mainname").text(value);
+
+    console.log(date.toLocaleString('en-US', {
+        weekday: 'long', // long, short, narrow
+        day: 'numeric', // numeric, 2-digit
+        year: 'numeric', // numeric, 2-digit
+        month: 'long', // numeric, 2-digit, long, short, narrow
+        hour: 'numeric', // numeric, 2-digit
+        minute: 'numeric', // numeric, 2-digit
+        second: 'numeric', // numeric, 2-digit
+    }));
 </script>	
 <script>
     $(function () {
